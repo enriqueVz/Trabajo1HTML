@@ -1,0 +1,179 @@
+
+/*Cabezera de la pagina (parte reutilizable)*/
+#encabezadoprincipal{
+    border: 1px solid blue;
+    height:100px;
+    background-image: url(img/bsq.jpg);
+    position: relative;
+}
+
+/*display de la cabecera*/
+.classencabezado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Titulo "AIRSOFT HOME"*/
+.classencabezado a.logo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*Botón de inicio de sesión*/
+.classencabezado a.sesion {
+    color: rgb(0, 255, 0);
+    font-size: 23px;
+}
+
+.enlacecentro{
+    text-align: center;
+}
+
+.enlacederecha{
+    position: absolute;
+    right:0;
+}
+
+/*Barra en movimiento*/
+#encabezadoprincipal marquee{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18;
+    background-image: url(img/cssback.jpg);
+    background-position: right;
+    height:30px;
+    margin-top:10px;
+}
+
+/*Botones y barra de navegación*/
+nav {
+    border: solid black;
+    background-color:blue;
+    height: 40px;
+}
+
+/*listas (para hacer cambios generales en un futuro)*/
+ul, ol {
+    list-style:none;
+}
+
+/*Configuración general para los section*/
+section{
+    margin-top: 10px;
+    border: 1px solid seagreen;
+    float:left;
+    height:550px;
+    width: 750px;
+}
+
+/*Header del cuerpo a la izquierda de la página*/
+header#hx1 {
+    border: 2px solid black;
+    background-color: bisque;
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Cuerpo a la izquierda*/
+article#art1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+/*footer a la izquierda */
+footer#enlc1 {
+    color: #c91010;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    background-image: url(img/winter.jpg);
+}
+
+/*Footer general de la página*/
+footer {
+    border: 1px solid fuchsia;
+    clear:left;
+}
+
+/*Estilo para el H3 del sorteo a la derecha*/
+h3#rs {
+     color: rgb(241, 0, 0); text-align: center;
+}
+
+
+/*Formulario de sorteo a la derecha*/
+div#formular {
+    display: absolute;
+width: 50%;
+margin-right: 50px;
+margin-top: 100px;
+margin-left: 900px;
+background-image: url(img/bckg1.jpg);
+}
+
+/*Estilo perteneciente a la textbox de "contacto" dentro de la barra de navegación*/
+div#ticketsop {
+    position: absolute;
+    padding: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+/*Display para las fotos del sorteo*/
+div#fotossortv {
+    display: inline-flex;
+}
+
+/*Fotos de las armas*/
+img#g19 { 
+
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 10px;
+    justify-content: center;
+}
+
+/*Fotos de las armas*/
+img#g3 { 
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 10px;
+    justify-content: center;
+ }
+
+/*Fotos de las armas*/
+img#m41  {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 10px;
+    justify-content: center;    
+}
+
+/*Texto "Armas a sortear"*/
+h3#sort1 {
+    text-align: center;
+    font-weight: 700;
+    color: black; 
+}
+
+/*Caja de texto para contactar con soporte*/
+p#soportecontacto{ 
+
+    color: rgb(0, 0, 0);
+     font-size: 20px;
+     text-align: center;
+}

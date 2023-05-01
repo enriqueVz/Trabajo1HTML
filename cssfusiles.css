@@ -1,0 +1,315 @@
+/*Texto en movimiento*/
+marquee#discount { color: #000000; background-color:rgb(201, 201, 201); 
+    font-family: 'Times New Roman', Times, serif; font-weight: 100;
+    background-image: url(img/cssback.jpg);
+    background-position: right;
+}
+
+/*Titulo "AIRSOFT HOME"*/
+header#hed1 { 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;  
+}
+
+/*Background de la cabezera*/
+div#cabez1 {background-image: url(img/bsq.jpg);}
+
+/*Barra de navegación*/
+div#nav {width: 1200px; height: 100px;}
+
+
+/*Cajas de los productos en cada página*/
+div#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*Cajas de la parte izquierda de la pagina*/
+div#leftpart {
+
+   width: 800px;
+   height: 800px;
+   border: 3px solid black;
+   align-self: center;
+   margin: 60px;
+   background-image: url(img/bsq.jpg);
+}
+
+/*Cajas de la parte derecha de la pagina*/
+div#rightpart {
+
+    width: 800px;
+    height: 800px;
+    border: 3px solid black;
+    align-self: center;
+    margin: 60px;
+    background-image: url(img/bsq.jpg);
+}
+
+/*2ª fila de cajas de los productos en cada página*/
+div#container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*2ª fila de cajas de la parte izquierda de la pagina*/
+div#leftpart1 {
+   width: 800px;
+   height: 800px;
+   border: 3px solid black;
+   align-self: center;
+   margin: 60px;
+   background-image: url(img/bsq.jpg);
+}
+
+
+/*2ª fila de cajas de la parte derecha de la pagina*/
+div#rightpart1 {
+
+    width: 800px;
+    height: 800px;
+    border: 3px solid black;
+    align-self: center;
+    margin: 60px;
+    background-image: url(img/bsq.jpg);
+    
+}
+
+/*estilo para los H1*/
+h1 {
+    text-align: center;
+    color: chartreuse;
+}
+
+
+/*fusil 1*/
+img#tar21 {
+
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+   
+}
+
+/*fusil 2*/
+img#m4socom {
+
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+   
+}
+
+/*fusil 3*/
+img#ak {
+
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+   
+}
+
+/*fusil 4*/
+img#sg553 {
+
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+   
+}
+
+/*Estilo para los H2*/
+h2 {
+    font-weight: 5000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+    color: chartreuse;
+}
+
+/*Estilo para los H3*/
+h3 { font-weight: 2000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    color: chartreuse;
+}
+
+/*Pistola 1*/
+img#f57 {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+}
+
+/*Pistola 2*/
+img#m1911 { 
+    
+margin-left: 25%;
+margin-right: 25%;
+width: 400px;
+height: 400px;
+border: 3px solid black;
+}
+
+/*Pistola 3*/
+img#taurus {
+
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+}
+
+/*Pistola 4*/
+img#m9 {
+
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+}
+
+/*Escopeta 1*/
+img#dbarrel {
+
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+}
+
+/*Escopeta 2*/
+img#s12 {
+
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+}
+
+/*Escopeta 3*/
+img#shorty {
+
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+}
+
+/*Escopeta 4*/
+img#stryker {
+
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+}
+
+/*TS 1*/
+img#b07 {
+
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+}
+
+/*TS 2*/
+img#sr25 {
+
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+}
+
+/*TS 3*/
+img#svd {
+
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+}
+
+/*TS 4*/
+img#m14 {
+
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+}
+
+/*ETáctico 1*/
+img#ctar {
+
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+}
+
+/*ETáctico 2*/
+img#vest {
+
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+}
+
+/*ETáctico 3*/
+img#casco {
+
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+}
+
+/*ETáctico 4*/
+img#bbs {
+
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+}
+
+
+
+
+
+

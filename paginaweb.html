@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--Le damos apariencia de página web--> 
+    <title>https://www.airsofthome.com</title>
+</head>
+<!-- UNION CON EL ARCHIVO CSS-->
+<link rel= "stylesheet" href="cssweb.css">
+<link rel= "stylesheet" href="barranavegacion.css">
+
+<body>
+
+    <!--Encabezado que reutilizaremos en todas nuestras páginas-->
+    <header id="encabezadoprincipal">
+        <br>
+        <div class="classencabezado">
+            <div><a href="paginaweb.html" class="logo">AIRSOFT HOME</a></div>
+            <!--Redirección para iniciar sesión-->
+            <div class="enlacederecha"><a href="iniciar-sesion.html" class="sesion">Iniciar sesión</a></div>
+        </div>
+        <!--Banner en movimiento-->
+        <marquee>¡Hasta el 35% de descuento en mayo!</marquee>
+    </header>
+
+    <!--Nuestra barra de navegación (azul)-->
+    <nav>
+        <!--Lista con los 5 elementos iniciales de la barra-->
+        <div id="divdelistadesordenada">
+            <ul class="ul1">
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="campos-de-tiro.html">Campos de tiro</a></li>
+                <li><a href="equipamiento-y-armas.html">Equipamiento y armas</a></li>
+                <li><a href="taller.html">Taller</a></li>
+                <li><a href="nuestros-productos.html">Nuestros productos</a>     
+                    <ul>
+                        <!--Botón desplegable dentro de "ARMAS" que nos lleva a las páginas de compra-->
+                        <li><a href="">Armas</a>
+                            <ul>
+                                <li><a href="fusiles.html">Fusiles</a></li>
+                                <li><a href="pistolas.html">Pistolas</a></li>
+                                <li><a href="escopetas.html">Escopetas</a></li>
+                                <li><a href="tselecto.html">Tirador selecto</a></li>
+                            </ul>
+                        </li>
+                        <!--El mismo botón desplegable, pero solo hay un link funcional, el de equipamiento-->
+                        <li><a href="">Munición y recarga</a></li>
+                        <li><a href="">Accesorios</a></li>
+                        <li><a href="tgear.html">Equipamiento</a>
+                        <li><a href="">Internos</a></li>
+                        <li><a href="">HPA</a></li>
+                    </ul>
+                </li>
+                <!--Link a la localización ficticia de la tienda-->
+                <li><a href="localizacion.html">Localización</a></li>
+                <!--Link al enlace de contacto-->
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Ventana de la parte izquierda-->
+    <section>
+        <!--Header de la sección-->
+    <header id="hx1">
+        Nueva legislación en España
+    </header>
+    <br>
+    <!--Cuerpo del aside-->
+    <article id="art1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum accumsan tellus vitae dictum. Ut posuere nunc id mi dignissim, vel ultricies sapien facilisis. Suspendisse blandit nulla ut laoreet scelerisque. Suspendisse quis felis id lacus efficitur rhoncus faucibus id augue. Nam euismod odio id magna aliquam, id interdum odio cursus. Donec sed malesuada purus, vitae mattis sapien. Maecenas auctor leo accumsan aliquet congue. Etiam ac arcu ligula. Quisque ac nibh convallis, commodo est eget, euismod orci. Suspendisse ac mauris mollis, sollicitudin urna vitae, aliquam justo.
+        Quisque id justo hendrerit, lobortis urna at, sodales neque. Nunc et sodales erat, nec fringilla sapien. Pellentesque feugiat neque quis posuere congue. Proin ac porttitor metus, eget sodales elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus tempus ex eget felis laoreet auctor ut eget lacus. Suspendisse potenti.
+        Duis viverra, orci eu rutrum hendrerit, sapien magna pharetra nibh, quis egestas odio magna id ligula. Sed in nisl ut erat convallis imperdiet vel non felis. In suscipit dapibus ultrices. Vivamus pulvinar nunc metus, suscipit tempor leo tempor non. Morbi sem enim, iaculis eget arcu quis, pharetra dictum ex. Etiam tincidunt purus sed orci viverra vehicula. Ut ornare, dui sit amet tristique cursus, sem elit feugiat risus, ut egestas felis eros sed velit. Sed iaculis lectus sit amet ullamcorper imperdiet. Nullam purus sem, egestas et felis eget, accumsan luctus justo. Fusce non consectetur massa, quis ornare dolor. Cras luctus imperdiet porttitor. Aliquam non mi non urna sodales laoreet. Maecenas tristique mauris mi, et aliquet sem hendrerit id. Sed molestie lectus eu quam suscipit, non porta lacus pretium.
+    </article>
+    <br>
+    <!--Enlace a reglas del airsoft (página externa)-->
+    <footer id="enlc1">
+        <a href="https://airsoftmontequinto.com/airsoft-reglamento-y-legislacion/">Consulta las reglas de juego aquí:</a> 
+    </footer>
+    </section>
+
+
+
+<!-- SORTEO (PARTE DERECHA)--> 
+
+    <aside id="asidesorteo">
+
+<div id="formular">
+    <aside id="sorteoaside";>
+    <form action="RegistoSorteo.jsp" method="get" id="encuest1"> 
+    
+        <!--Header del formulario-->
+       <fieldset>
+           <h3 id="rs">Registro para el sorteo</h3>
+           <legend> Datos personales</legend>
+    
+<!--Variables a introducir por el usuario-->
+    
+    <label for="Nombre">Nombre</label required  > <br>
+    <input id="Nombre" type="text" name="Nombre">
+    <br>
+    
+    <label for="Número de socio">Número de socio</label required> <br>
+    <input id="Número de socio" type="number" name="Número de socio"    >
+    <br>
+    
+    <label for="Teléfono">Teléfono</label><br>
+    <input id="Teléfono" type="tel" name="Teléfono">
+    <br>
+    
+    <label for="Email">Email</label><br>
+    <input id="Email" type="email" name="Email" required>
+    <br>
+    
+    <label for="contraseña">Contraseña</label required><br>
+    <input id="contraseña" type="password" name="Contraseña">
+    <br><br>
+    
+<!--Elemento a elegir-->
+
+    <select for="recompensa">Recompensa a elegir: 
+    
+    
+    <option value=re2>"Glock 17 Tokyo Marui (co2)"</option>
+    
+    
+    <option value=re1>"M4-16C GoldenEagle (eléctrica)</option>
+    
+    
+    <option value=re2>"G3A1 eléctrica GyG"</option>
+    <br>
+    
+    </select>
+    <br><br>
+    
+<!--Formalidad términos y condiciones-->
+
+    <label for="tyc">Acepto los términos y condiciones</label>
+    <input type="checkbox" id="tyc" type="text" name="tycxº">
+    <br><br>
+    <input type="submit" value="Enviar datos">
+    <br><br>
+    <input type="reset" value="Resetear formulario">
+    <br>
+    
+    <!--Imágenes de los productos sorteados-->
+    <div id="fotossort">
+       <h3 id="sort1"> Armas a sortear:</h3>
+       <img id="g19" src="img/g19.jpg" alt="Glock del sorteo">
+       <img id="m41" src="img/m416.jpg" alt="Carabina G.E. del sorteo">
+       <img id="g3" src="img/g3gyg.jpg" alt="G3A1 GYG del sorteo">
+    </div>
+    
+    
+    </div>
+    </aside>
+    <footer>
+        <!--Enlaces del footer-->
+        <a href="avisolegal.html">Aviso legal</a>
+        <a href="contacto.html">Contacto</a><br>
+        © 2023 AIRSOFT HOME
+    </footer>
+
+</body>
+
+
+
